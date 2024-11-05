@@ -1,0 +1,14 @@
+{
+  "name": "nodejs-devops-server",
+  "version": "1.0.0",
+  "description": "a simple web server using nodejs for learning devops automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "hiran",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}

@@ -2,15 +2,14 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_HUB_REPO = 'your_dockerhub_username/your_app_name'
-        TARGET_SERVER = 'your_target_server_ip'
-        TARGET_PATH = '/path/to/deployment'
+        DOCKER_HUB_REPO = 'hiranspx/node-server'
+        TARGET_SERVER = '34.224.82.156'
     }
 
     stages {
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/your_username/your_repo.git'
+                git branch: 'main', url: 'git@github.com:hiransp/node-web-server.git'
             }
         }
         

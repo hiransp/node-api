@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: 'git@github.com:hiransp/node-web-server.git'
+                git branch: 'main', url: 'git@github.com:hiransp/node-web-server.git', credentialsId: 'github'
             }
         }
         

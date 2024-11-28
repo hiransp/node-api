@@ -9,6 +9,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
+                sh whoami
                 git branch: 'main', url: 'git@github.com:hiransp/node-web-server.git'
             }
         }

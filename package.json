@@ -9,6 +9,10 @@
   "author": "hiran",
   "license": "ISC",
   "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.716.0",
+    "@aws-sdk/lib-dynamodb": "^3.716.0",
+    "@aws-sdk/util-dynamodb": "^3.716.0",
+    "body-parser": "^1.20.3",
     "express": "^4.21.1"
   }
 }
